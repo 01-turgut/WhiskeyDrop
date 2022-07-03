@@ -32,13 +32,27 @@ body {
 
 .features-container {}
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 /* Block Dividers */
 
-.block-divider  {
+.block-divider {
     width: 80px;
     height: 5px;
     border: 0;
-
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -47,6 +61,13 @@ body {
 
 .block-divider-short {
     width: 35px;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* NavBar*/
@@ -66,7 +87,8 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
 }
-.navbar .navbar-toggler{
+
+.navbar .navbar-toggler {
     border: 0;
 }
 
@@ -93,6 +115,7 @@ body {
     background-color: #e1981e;
     border-color: #e1981e;
 }
+
 /* Jumbotron*/
 
 .jumbotron {
@@ -127,7 +150,7 @@ body {
     width: 160px;
 }
 
-.btn--red{
+.btn--red {
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
@@ -137,6 +160,7 @@ body {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #992208;;
+    background-color: #992208;
+    ;
     border: #f05f40;
 }
