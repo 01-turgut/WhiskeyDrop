@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+    
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container {}
 
 .callout-container {
@@ -46,6 +55,10 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+
 /* Block Dividers */
 
 .block-divider {
@@ -63,11 +76,15 @@ body {
     width: 35px;
 }
 
+.block-divider--white {
+    background-color: white;
+}
 /* Content Containers */
 
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+
 }
 
 /* NavBar*/
@@ -163,4 +180,33 @@ body {
     background-color: #992208;
     ;
     border: #f05f40;
+}
+
+.features {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.monthly-favorites h2 {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.features i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+.features .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
